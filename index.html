@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shape</title>
+
+    <link rel="stylesheet" href="shape.css" />
+  </head>
+  <body>
+    <div class="mainBox">
+      <div class="headBox">
+        <h1 onclick="rules()">Shape</h1>
+      </div>
+      <div class="bodyBox">
+        <p>Select the Shape you want to Calculate</p>
+        <select name="" id="shapeDropdown">
+          <option disabled selected value="0">--Choose Shape to Calculate--</option>
+          <option value="square">Square</option>
+          <option value="rectangle">Rectangle</option>
+          <option value="triangle">Triangle</option>
+          <option value="circle">Circle</option>
+          <option value="parallelogram">Parallelogram</option>
+          <option value="trapezoid">Trapezoid</option>
+          <option value="rhombus">Rhombus</option>
+        </select>
+        <div id="inputContainer">
+          <div id="squareInput" class="hidden">
+            <input type="number" / placeholder="Input Your side to Calculate" id="squareIn">
+          </div>
+          <div id="rectangleInput" class="hidden">
+            <input type="number" / placeholder="Input Your length to Calculate" id="rectangleInlength">
+            <input type="number" / placeholder="Input Your width to Calculate" id="rectangleInwidth">
+          </div>
+          <div id="triangleInput" class="hidden">
+            <input type="number" / placeholder="Input Your base to Calculate" id="triangleInbase">
+            <input type="number" / placeholder="Input Your height to Calculate" id="triangleInheight">
+          </div>
+          <div id="circleInput" class="hidden">
+            <input type="number" / placeholder="Input Your r to Calculate" id="circleInR">
+          </div>
+          <div id="parallelogramInput" class="hidden">
+            <input type="number" / placeholder="Input Your base to Calculate" id="parallelogramInbase">
+            <input type="number" / placeholder="Input Your height to Calculate" id="parallelogramInheight">
+          </div>
+          <div id="trapezoidInput" class="hidden">
+            <input type="number" placeholder="Input Your a to Calculate" id="trapezoidInA">
+            <input type="number" placeholder="Input Your b to Calculate" id="trapezoidInB">
+            <input type="number" placeholder="Input Your height to Calculate" id="trapezoidInheight">
+          </div>
+          <div id="rhombusInput" class="hidden">
+            <input type="number" / placeholder="Input Your diagonal 1 to Calculate" id="rhombusInDiagonal1">
+            <input type="number" / placeholder="Input Your diagonal 2 to Calculate" id="rhombusInDiagonal2">
+          </div>
+        </div>
+        <button id="calculateButton" onclick="calculate()">Calculate!</button>
+        <div class="outputCalculate">
+            <p>The result of the calculation is:</p>
+            <p id="sideUserInput">Placeholder</p>
+            <h1 id="output">0</h1>
+        </div>
+      </div>
+    </div>
+    <script src="shape.js"></script>
+  </body>
+</html>

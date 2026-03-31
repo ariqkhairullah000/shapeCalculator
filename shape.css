@@ -1,0 +1,68 @@
+body {
+  background-color: black;
+  color: #1d546d;
+  font-family: "Courier New";
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.mainBox {
+  background-color: #f3f4f4;
+  width: fit-content;
+  border-radius: 30px;
+}
+
+.headBox {
+  text-align: center;
+  background-color: beige;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+
+.headBox h1 {
+  margin: 0;
+}
+
+.bodyBox {
+  width: 600px;
+  padding-left: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+select {
+  width: 250px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  background-color: white;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+input {
+  margin-top: 20px;
+  width: 250px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  background-color: white;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+#calculateButton {
+  display: block;
+  margin-top: 50px;
+  width: 250px;
+  height: 50px;
+}
