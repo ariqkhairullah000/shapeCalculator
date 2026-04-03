@@ -80,13 +80,10 @@ Or use the live demo:
 
 ## 🎥 Demo
 
-*(You can put your demo video here later)*
 Example:
 
 ```
-[Insert demo video link or GIF here]
-```
-
+![Shape Calculator Demo](./demo.gif)
 ---
 
 ## 👤 Author
