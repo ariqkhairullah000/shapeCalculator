@@ -1,4 +1,3 @@
-Here’s your modified README with the structure you requested (clean, more professional, and GitHub-ready):
 
 ---
 
