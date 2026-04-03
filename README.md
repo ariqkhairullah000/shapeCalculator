@@ -1,9 +1,19 @@
+Here’s your modified README with the structure you requested (clean, more professional, and GitHub-ready):
+
+---
+
 # 🧮 Shape Calculator
 
 A simple web-based calculator to compute the area of various 2D shapes.
-This project was built as a **practice project** to improve my JavaScript and DOM manipulation skills.
+This project was built as a **practice project** to improve my HTML, CSS, and JavaScript skills, especially in DOM manipulation and handling user input dynamically.
 
-Users can select a shape, input values, and instantly get the result.
+---
+
+## 🛠️ Technologies
+
+* HTML
+* CSS
+* JavaScript
 
 ---
 
@@ -20,44 +30,70 @@ Users can select a shape, input values, and instantly get the result.
   * Rhombus
 * Dynamic input fields based on selected shape
 * Instant calculation using JavaScript
+* Simple and interactive UI
 
 ---
 
-## 🛠️ Tech Stack
+## ⚙️ The Process
 
-* HTML
-* CSS
-* JavaScript
+* Designed a simple UI layout using HTML and CSS
+* Used `<select>` dropdown to allow users to choose shapes
+* Implemented dynamic input fields that change based on selected shape
+* Applied JavaScript to handle:
 
----
-
-## 🚀 How to Use
-
-1. Select a shape from the dropdown
-2. Enter the required values
-3. Click **Calculate**
-4. View the result instantly
+  * User input
+  * Formula calculations
+  * DOM updates for showing results
+* Added basic validation to ensure all fields are filled before calculating
 
 ---
 
-## 🌐 Live Demo
+## 📚 What I Learned
 
-👉 https://shape-calculator-ariq.netlify.app/
+* Improved understanding of **HTML structure and form elements**
+* Learned how **JavaScript interacts with HTML (DOM manipulation)**
+* Gained experience in handling **user input dynamically**
+* Better understanding of how `<select>` and dropdown logic works in real applications
+* Practiced implementing **mathematical formulas into code**
+
+---
+
+## 🚧 Future Improvements
+
+* Add an **info button** for rules instead of clicking the web title
+* Replace alert with a **better UI component (modal or card)**
+* Improve overall UI/UX design
+* Add **perimeter (keliling)** calculations
+* Expand to include **3D shape calculations** (volume, surface area)
+
+---
+
+## ▶️ Running the Project
+
+1. Clone this repository
+2. Open the project folder
+3. Run `index.html` in your browser
+
+Or use the live demo:
+👉 [https://shape-calculator-ariq.netlify.app/](https://shape-calculator-ariq.netlify.app/)
+
+---
+
+## 🎥 Demo
+
+*(You can put your demo video here later)*
+Example:
+
+```
+[Insert demo video link or GIF here]
+```
 
 ---
 
 ## 👤 Author
 
 **Bariq Khairullah**
-🔗 https://linkedin.com/in/your-linkedin (not ready)
+(coming soon)
 
 ---
 
-## 📌 Notes
-
-* This is a practice project
-* Make sure to select a shape before calculating
-* Fill in all input fields
-* Refresh the page to start a new calculation
-
----
