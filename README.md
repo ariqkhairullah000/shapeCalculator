@@ -82,9 +82,7 @@ Or use the live demo:
 
 Example:
 
-```
 ![Shape Calculator Demo](./demo.gif)
----
 
 ## 👤 Author
 
